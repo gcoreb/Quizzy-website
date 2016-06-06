@@ -25,7 +25,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 .dotLink{
 text-decoration: none;
     color: #446CB3	;
-    border-bottom: solid;
+    border-bottom: dotted 1px;
 }
 #title{
 font-family: 'Raleway', sans-serif;
@@ -33,10 +33,7 @@ margin-bottom: 0;
 border-bottom: solid 10px;
 max-width: 57%;
 }
-#downloadImage{
-    max-height: 20px;
-    margin-top: 20px;
-}
+
 .button{
       padding: 8px 25px 8px 25px ;
     border-radius: 30px;
@@ -82,7 +79,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
 margin-top: 1.5%;
-    margin-left: 5%;
+    margin-right: 1.5%;
 }
 li a  {
     text-decoration: none;
@@ -91,11 +88,19 @@ li a  {
 }
 nav {
      font-family: 'Raleway', sans-serif;
+     position:fixed;
     font-size: 20px;
+     transition: all 0.25s ease;
+     border-bottom: 1px solid #fff;
     text-align: right;
-    padding-bottom: 12px;
-    background: #9068be;
+    z-index: 9999;
+    top:0;
+    left:0;
+    right:0;
+    background-color: transparent;
+    padding-bottom:10px;
 }
+
 #logo a{
     font-size: 32px;
     float: left;
@@ -115,6 +120,7 @@ nav {
 #top{
     margin-bottom: 0;
     color: white;
+    margin-top: 25%;
 }
 #up{
     margin-top: 10px;
@@ -131,7 +137,8 @@ text-decoration: underline;
     max-height: 450px;
     width: 30%;
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 5%;
+    padding-top: 5%;
 
 }
 #container{
@@ -207,8 +214,14 @@ text-decoration: underline;
     margin-top: 20%;
 }
 /*social stuff*/
-#popupSocialbuttoncontainer {margin:0 auto; padding:0; text-align: center;}
-#popupSocialbuttons {overflow:hidden;}
+#popupSocialbuttoncontainer {
+  margin:0 auto; padding:0;
+
+}
+#popupSocialbuttons {
+  padding-left: 9%;
+  overflow:hidden;
+}
 .popupSocialbutton {
   background:#DCE0E0;
   position:relative;
