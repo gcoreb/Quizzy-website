@@ -1,4 +1,4 @@
-body{
+body {
     background: white;
     margin: 0;
 }
@@ -87,7 +87,7 @@ margin-top: 1.5%;
 li a  {
     text-decoration: none;
     color: white ;
-
+    padding-right: 5%;
 }
 nav {
      font-family: 'Raleway', sans-serif;
@@ -145,21 +145,26 @@ text-decoration: underline;
  }
 #about {
     background: #9068be;
-    padding-bottom: 250px;
-    padding-top: 200px;
+    padding-bottom: 300px;
+    padding-top: 250px;
     text-align: center;
 }
 .minititle{
     text-decoration: underline;
+    color: #e1e8f0;
 }
 #download {
     background: #6ed3cf;
-    padding-bottom: 250px;
-    padding-top: 250px;}
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
 #contact {
     background: #e1e8f0;
-    padding-bottom: 250px;
-    padding-top: 250px;}
+    padding-bottom: 200px;
+    padding-top: 150px;
+    text-align: center;
+    padding-left: 25%;
+}
 #aboutButton{
     background: #e62739;
     color: black;
@@ -171,3 +176,80 @@ text-decoration: underline;
 .column-left{ float: left; width: 33%; }
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; }
+
+.desc{
+    color: #e1e8f0;
+}
+.downDesc{
+       font-family: 'Raleway', sans-serif;
+}
+.half-left{
+    float: left;
+    width: 40%;
+    margin-left: 15%;
+}
+.half-right{
+    float: right;
+    margin-right: 20%;
+}
+#appImg{
+    height: 80px;
+    float: right;
+    display: inline-block;
+    margin-top: 20px
+}
+ 
+
+#placement{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;   
+    margin-top: 20%;
+}
+/*social stuff*/
+#popupSocialbuttoncontainer {margin:0 auto; padding:0; text-align: center;}
+#popupSocialbuttons {overflow:hidden;}
+.popupSocialbutton {
+  background:#DCE0E0;
+  position:relative;
+  float:left;
+  height:40px; width:150px;
+  margin:5px;
+  overflow:hidden;
+  border-radius:3px;
+}
+.popupSocialicon {
+  float:left;
+  width:38px; height:100%;
+  border-radius:3px 0px 0px 3px;
+  text-align:center;
+}
+.popupSocialicon i.fa {color:#fff; line-height:42px;}
+
+.popupSocialslide {
+  height:100%; width:112px;
+  position:absolute; right:0; top:0; z-index:2;
+  text-align:center;
+  border-radius:0 3px 3px 0;
+  transition:all 0.2s ease-in-out;
+}
+.popupSocialslide p {
+  font:normal 400 16px/1.5 'Open Sans', sans-serif; color:#fff;
+  border-left:1px solid #ccc;
+  margin-top:8px;
+}
+
+.popupSocialcount {
+  height:100%; width:112px;
+  position:absolute; right:0; top:0; z-index:1;
+  border-radius:0 3px 3px 0;
+  text-align:center;
+}
+.popupSocialcount iframe {margin:10px!important;}
+
+.popupSocialbutton:hover .popupSocialslide {right:-112px;}
+
+.popupSocial-facebook .popupSocialicon, .popupSocial-facebook .popupSocialslide {background:#305c99;}
+.popupSocial-twitter .popupSocialicon, .popupSocial-twitter .popupSocialslide {background:#00cdff;}
+.popupSocial-google .popupSocialicon, .popupSocial-google .popupSocialslide {background:#d24228;}
+/*end*/
