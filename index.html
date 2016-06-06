@@ -128,13 +128,29 @@
     
     
     <footer>
-made with <i class="heart fa fa-heart"></i> by <a class="dotLink" href="http://bryanchen.ml">bryan</a> and <a class="dotLink" href="kushal.github.io">kushal</a>
+made with <i class="heart fa fa-heart"></i> by <a class="dotLink" href="http://bryanchen.ml">bryan</a> and <a class="dotLink" href="https://kushaltirumala.github.io">kushal</a>
     </footer>
 
 	</body>
     <script>
 $(document).ready(function(){
 smoothScroll.init();
+
+var mainbottom = $('#container').height();
+console.log(mainbottom)
+$(window).on('scroll',function(){
+  console.log('scrolling')
+    var stop = Math.round($(window).scrollTop());
+
+    if (stop > mainbottom) {
+      $('nav').css("background-color", "#9068be")
+    } else {
+      $('nav').css("background-color", "transparent");
+    }
+
+});
 })
+
+
     </script>
 </html>
