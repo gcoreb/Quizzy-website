@@ -13,17 +13,25 @@ h3{
     margin-bottom: 40px;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    
     font-weight: 200;
+    font-size: 30px;
+}
+p{
+    
+    margin-bottom: 40px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    font-weight: 200;
+    font-size: 20px;
 }
 .dotLink{
 text-decoration: none;
-    color: #3498DB;
+    color: #446CB3	;
     border-bottom: solid;
 }
 #title{
 font-family: 'Raleway', sans-serif;
 margin-bottom: 0;
 border-bottom: solid 10px;
-max-width: 57%
+max-width: 57%;
 }
 #downloadImage{
     max-height: 20px;
@@ -38,11 +46,12 @@ max-width: 57%
         font-family: 'Raleway', sans-serif;
 }
 #downloadButton{
-    background: #3498DB;
-    color: white;
+    background: #6ed3cf;
+    background-color: #e62739;
+    color:white;
 }
 #downloadButton:hover {
-    background: #00BFFF;
+    background: #6ed3cf;
 }
 .block {
     margin-left: 5%;
@@ -55,6 +64,9 @@ footer{
     bottom: 5%;
     font-family: 'Raleway', sans-serif;
     left: 38%;
+}
+.fa-heart{
+    color: #446CB3;
 }
 /* stuff for landing.html */
 ul {
@@ -74,20 +86,23 @@ margin-top: 1.5%;
 }
 li a  {
     text-decoration: none;
-    color:#3498DB;
+    color: white ;
 
 }
 nav {
      font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-align: right;
+    padding-bottom: 12px;
+    background: #9068be;
 }
 #logo a{
     font-size: 32px;
     float: left;
     margin-top: 2%;
     margin-left: 2%;
-    color: black;
+    color: white;
+    letter-spacing: 2px;
 }
 #center{
     font-family: 'Raleway', sans-serif;
@@ -99,15 +114,17 @@ nav {
 }
 #top{
     margin-bottom: 0;
+    color: white;
 }
 #up{
     margin-top: 10px;
 text-decoration: underline;
     margin-bottom: 0;
+    color: white;
 }
 #down{
     margin-top: 5%;
-    color: 	#007BBB;
+    color: 	#6ed3cf;
 }
 #iphone{
     min-height: 400px;
@@ -119,26 +136,32 @@ text-decoration: underline;
 }
 #container{
     padding-bottom: 200px;
-}
+    background-image: url("background.jpeg");
+  background-repeat:no-repeat;
+
+   background-size:cover;}
  .clear {
           clear: both;
  }
 #about {
-    background: red;
-    padding-bottom: 400px;
-    padding-top: 300px;
+    background: #9068be;
+    padding-bottom: 250px;
+    padding-top: 200px;
     text-align: center;
 }
+.minititle{
+    text-decoration: underline;
+}
 #download {
-    background: orange;
-    padding-bottom: 400px;
-    padding-top: 400px;}
+    background: #6ed3cf;
+    padding-bottom: 250px;
+    padding-top: 250px;}
 #contact {
-    background: green;
-    padding-bottom: 400px;
-    padding-top: 400px;}
+    background: #e1e8f0;
+    padding-bottom: 250px;
+    padding-top: 250px;}
 #aboutButton{
-    background: yellow;
+    background: #e62739;
     color: black;
 }
 #contactButton{
