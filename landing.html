@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quizzy</title>
+
+		<!--css links-->
+		<link href='https://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+		<link href="styles.css" rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>		
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+ 
+		<!--jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="smooth-scroll.min.js"></script>
+<script>
+			if($(window).width() < 1024){
+				$(function() {
+					jQuery.fx.off = true;
+				});
+			}
+		</script>
+	</head>
+<body>
+    
+<nav>
+    <ul>  
+    <li id="logo"><a href="index.html">QUIZZY</a></li>    
+    <li class="items"><a  data-scroll href="#contact">contact</a></li>    
+    <li class="items"><a data-scroll href="#download">download</a></li>    
+    <li class="items"><a data-scroll href="#about">about</a></li>    
+    </ul>
+</nav>
+<div id="container">
+    <div id="center">
+        <h2 id="top">We get it,</h2>
+        <h2 id="up">Vocab sheets suck.</h2>
+        <h2 id="down">Use Quizzy.</h2>
+        <a data-scroll href="#about" id="downloadButton" class="button"><i class="fa fa-arrow-down"></i> LEARN MORE</a>
+    </div>
+<img id="iphone" src="editLater.png" >
+            <div class="clear"></div>
+</div>
+
+<div id="about">
+    <div class="column-left">
+       <i class="fa fa-sign-in fa-4x"></i>
+        <h3>log into quizlet</h3>
+    </div>
+     <div class="column-center">
+          <i class="fa fa-camera fa-4x"></i>
+        <h3>take a picture</h3>
+<a id="aboutButton" data-scroll class="button" href="#download">DOWNLOAD</a>   
+    </div>
+   <div class="column-right">
+         <i class="fa fa-book fa-4x"></i>
+       <h3>study.</h3>
+    </div>
+</div>
+<div id="download">
+     <a id="contactButton" data-scroll class="button" href="#contact">CONTACT</a>
+</div>
+<div id="contact">
+</div>
+    
+    
+    
+    <footer>
+made with <i class="fa fa-coffee"></i> by <a class="dotLink" href="http://bryanchen.ml">bryan</a> and <a class="dotLink" href="kushal.github.io">kushal</a>
+    </footer>
+
+	</body>
+    <script>
+$(document).ready(function(){
+smoothScroll.init();
+})
+    </script>
+</html>
