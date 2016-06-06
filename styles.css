@@ -1,0 +1,150 @@
+body{
+    background: white;
+    margin: 0;
+}
+
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    margin-bottom: 40px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    font-weight: 200;
+}
+.dotLink{
+text-decoration: none;
+    color: #3498DB;
+    border-bottom: solid;
+}
+#title{
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0;
+border-bottom: solid 10px;
+max-width: 57%
+}
+#downloadImage{
+    max-height: 20px;
+    margin-top: 20px;
+}
+.button{
+      padding: 8px 25px 8px 25px ;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+}
+#downloadButton{
+    background: #3498DB;
+    color: white;
+}
+#downloadButton:hover {
+    background: #00BFFF;
+}
+.block {
+    margin-left: 5%;
+}
+.intro{    
+    margin-top: 14%;
+}
+footer{
+      position:fixed;
+    bottom: 5%;
+    font-family: 'Raleway', sans-serif;
+    left: 38%;
+}
+/* stuff for landing.html */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.items{
+    float: right;
+ display: block;
+    text-align: center;
+    padding: 14px 16px;
+margin-top: 1.5%;
+    margin-left: 5%;
+}
+li a  {
+    text-decoration: none;
+    color:#3498DB;
+
+}
+nav {
+     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+#logo a{
+    font-size: 32px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: black;
+}
+#center{
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    width: 40%;
+    letter-spacing: 1px;
+        margin-top: 12%;
+    margin-left: 10%;
+}
+#top{
+    margin-bottom: 0;
+}
+#up{
+    margin-top: 10px;
+text-decoration: underline;
+    margin-bottom: 0;
+}
+#down{
+    margin-top: 5%;
+    color: 	#007BBB;
+}
+#iphone{
+    min-height: 400px;
+    max-height: 450px;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+#container{
+    padding-bottom: 200px;
+}
+ .clear {
+          clear: both;
+ }
+#about {
+    background: red;
+    padding-bottom: 400px;
+    padding-top: 300px;
+    text-align: center;
+}
+#download {
+    background: orange;
+    padding-bottom: 400px;
+    padding-top: 400px;}
+#contact {
+    background: green;
+    padding-bottom: 400px;
+    padding-top: 400px;}
+#aboutButton{
+    background: yellow;
+    color: black;
+}
+#contactButton{
+    background: green;
+    color: black;
+}
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
